@@ -1,0 +1,339 @@
+# MASTER PROMPT FOR CREATING ELITE CURSOR RULES - ANY TECHNOLOGY
+
+## Use This Exact Prompt for React, Node.js, Python, Go, Rust, etc.
+
+---
+
+```
+You are an expert in agentic AI coding, vibe coding, {TECHNOLOGY} best practices, 
+and prompt engineering. Your mission: Create elite-tier Cursor AI rules (.cursorrules) 
+that maximize development productivity for {TECHNOLOGY} development.
+
+## CRITICAL REQUIREMENTS (Non-Negotiable):
+
+### 1. AGENTIC REASONING - Embed These Patterns Automatically:
+- ReAct Framework: THINK (analyze) → ACT (implement) → OBSERVE (validate) → ITERATE (refine)
+- Chain-of-Thought: Show explicit reasoning before implementation for complex tasks
+- Meta-Prompting: Self-evaluate quality before submitting responses
+- Task Decomposition: Automatically break multi-step tasks into phases
+- Self-Consistency: For critical operations, generate 3 approaches internally and select most consistent
+
+### 2. VIBE CODING BEST PRACTICES - Make These Core:
+- Clarity First: Requirements and specifications MUST come before any code generation
+- Iterative Workflow: Embed "Build → Test → Observe → Feedback → Refine" as core pattern
+- Incremental Building: Component-by-component development with testing at each step
+- The 95/5 Rule: Document that AI achieves 95%, human refines 5% (this is OPTIMAL)
+- Feedback Loops: Make iteration a feature, not a failure
+
+### 3. ADVANCED PROMPT ENGINEERING PATTERNS:
+- Few-Shot Prompting: "Provide 2-3 examples of desired format/behavior"
+- Zero-Shot Prompting: "Direct clear instruction with no examples"
+- Role-Based Prompting: "Act as {TECH} performance expert" / "Act as security specialist"
+- Prompt Chaining: Sequential prompts where output becomes input for next prompt
+
+### 4. {TECHNOLOGY} BEST PRACTICES - Research and Include:
+Current as of November 2025. Cover:
+- Latest conventions and idioms for {TECHNOLOGY}
+- Standard project structure and file organization
+- Naming conventions specific to {TECHNOLOGY}
+- Framework-specific patterns (if applicable)
+- Testing frameworks and best practices
+- Common libraries and their proper usage
+- Performance optimization patterns
+- Error handling and logging strategies
+- Deployment and configuration best practices
+- Common anti-patterns to avoid
+
+### 5. SECURITY VALIDATION - Make This Mandatory:
+- Create {TECHNOLOGY}-specific security pre-flight checklist (13+ points minimum)
+- Security must validate BEFORE any code is presented
+- Include OWASP Top 10 considerations relevant to {TECHNOLOGY}
+- Add security reasoning chain: threat model → mitigations → residual risks
+- Create forbidden patterns list (never implement these)
+- Add defensive coding patterns mandatory for all code
+
+### 6. CODE QUALITY & TESTING:
+- Code Quality Validation Checklist: Functional, Performance, Security, Maintainability
+- Incremental Testing Pattern: "Test-as-you-build, not test-at-end"
+- Quality validation BEFORE presenting code
+- Testing strategy: Unit, Integration, E2E (only when explicitly requested)
+
+### 7. EFFICIENCY & COST OPTIMIZATION:
+- Token minimization strategies specific to {TECHNOLOGY}
+- Context loading: Intelligent, surgical context usage
+- Context management thresholds: When to start new chat (>15k tokens, >20 exchanges)
+- Model selection matrix: When to use which model based on task type
+- Cost optimization for $20/month Pro plan
+
+### 8. SCOPE CONTROL - Prevent Scope Creep:
+- Surgical precision: Only modify what's requested
+- No scope creep: No "while I'm here, let me also..." behavior
+- Stop signals: When to ask for clarification
+- One file per response principle
+
+## STRUCTURE (18 Sections, 60-70 Rules Total):
+
+1. **Scope & Focus Control** (3 rules)
+   - Rule 1: Surgical Precision
+   - Rule 2: Prevent Scope Creep
+   - Rule 3: Explicit Clarification
+
+2. **{TECHNOLOGY} Workflow** (3-4 rules)
+   - Rule 4: Clarity First Principle
+   - Rule 5: Iteration Pattern
+   - Rule 6: Incremental Building
+   - Rule 7: Best Practices Overview
+
+3. **Agentic Reasoning Engine** (5 rules)
+   - Rule 8: ReAct Framework
+   - Rule 9: Chain-of-Thought
+   - Rule 10: Meta-Prompting
+   - Rule 11: Task Decomposition
+   - Rule 12: Self-Consistency
+
+4. **Advanced Prompt Engineering** (4 rules)
+   - Rule 13: Few-Shot Prompting
+   - Rule 14: Zero-Shot Prompting
+   - Rule 15: Role-Based Prompting
+   - Rule 16: Prompt Chaining
+
+5. **Iterative Feedback Loop** (4 rules)
+   - Rule 17: The Iteration Cycle
+   - Rule 18: Effective Feedback Patterns
+   - Rule 19: Test-as-You-Build
+   - Rule 20: When to Stop (95/5 Rule)
+
+6. **Context Optimization** (3 rules)
+   - Rule 21: Intelligent Context Loading
+   - Rule 22: Token Efficiency
+   - Rule 23: Context Maintenance
+
+7. **Security & Quality Validation** (4 rules)
+   - Rule 24: {TECHNOLOGY} Security Pre-Flight (13+ point checklist)
+   - Rule 25: Security Reasoning Chain
+   - Rule 26: Code Quality Validation
+   - Rule 27: Incremental Testing Pattern
+
+8. **{TECHNOLOGY}-Specific Patterns** (5-6 rules)
+   - Rule 28-33: [Technology-specific patterns and conventions]
+   - Include: Project structure, naming, patterns, dependencies, error handling, logging
+
+9. **Testing & Validation** (3 rules)
+   - Testing strategy, Validation before finalization, Linting & formatting
+
+10. **Auto Mode Optimization** (4 rules)
+   - Model selection matrix, Advanced strategies, Surgical context, Mode selection
+
+11. **Code Quality Standards** (3 rules)
+   - Clean code principles, {TECHNOLOGY}-specific quality, Error handling
+
+12. **Productivity Patterns** (4 rules)
+   - Direct implementation, One file per response, Reasoning transparency, Problem-solving
+
+13. **Cost-Efficient Usage** (3 rules)
+   - Token minimization, Mode selection for efficiency, Budget awareness
+
+14. **Project Context** (3 rules)
+   - Respect project structure, Version control, Framework patterns
+
+15. **Risk-First Thinking** (4 rules)
+   - Risk assessment, Forbidden patterns, Defensive coding, Auditable reasoning
+
+16. **Response Format** (2 rules)
+   - Response structure, Code presentation standards
+
+17. **Stop Signals & Checklists** (2 rules)
+   - When to stop and ask, Revert strategy
+
+18. **Final Summary** (1 section)
+   - Key principles (10), Meta guide, Quick reference
+
+## DETAILED REQUIREMENTS:
+
+### {TECHNOLOGY} Security Checklist (Rule 24 - MANDATORY):
+Create a 13+ point security checklist that is MANDATORY before ANY code generation.
+Include vulnerabilities specific to {TECHNOLOGY}:
+- Authentication/Authorization patterns
+- Input validation approach
+- Output sanitization
+- Secret/credential management
+- Encryption (at rest, in transit)
+- Error handling (no info leakage)
+- Dependency security
+- [Add 5-6 more specific to {TECHNOLOGY}]
+
+### {TECHNOLOGY}-Specific Patterns (Rules 28-33):
+Research and document:
+1. Standard project structure
+2. Naming conventions (functions, variables, files, etc.)
+3. Framework/library patterns
+4. Dependency management
+5. Error handling idioms
+6. Logging patterns
+7. Configuration management
+8. [Add technology-specific patterns]
+
+### Copy-Paste Templates:
+Provide templates for:
+- Few-Shot examples (format-specific)
+- Zero-Shot examples (routine tasks)
+- Role-based prompts ("Act as X expert")
+- Prompt chaining sequences
+
+### Before/After Examples:
+Show:
+- Good scope control vs scope creep
+- Good feedback vs vague feedback
+- Focused responses vs unfocused
+- Efficient context loading vs wasteful
+
+## QUALITY SCORING SYSTEM:
+
+Score each category 0-100:
+- Agentic Reasoning: 95-100 (ReAct, CoT, Meta, Decomp, Consistency)
+- {TECHNOLOGY} Integration: 95-100 (Latest, conventions, security)
+- Vibe Coding: 93-100 (Clarity, Iteration, Incremental)
+- Security: 98-100 (Mandatory, never optional)
+- Scope Control: 95-100 (Surgical, focused, no creep)
+- Efficiency: 95-100 (Token, context, model selection)
+- Code Quality: 90-100 (Validation, testing, patterns)
+- Completeness: 95-100 (60-70 rules, all aspects)
+
+TARGET: 95+/100 overall (Elite-Tier)
+
+## FINAL DELIVERABLE:
+
+Provide:
+1. Complete .cursorrules file with 60-70 comprehensive rules
+2. All 18 sections organized clearly
+3. Copy-paste templates for all patterns
+4. Before/after examples for key patterns
+5. {TECHNOLOGY}-specific security checklist
+6. Decision matrices for model selection
+7. Quick reference guide
+8. Quality score breakdown with explanations
+9. Usage instructions
+10. Verification that all requirements met
+
+## SUCCESS CRITERIA - ALL MUST BE MET:
+
+✅ 60-70 comprehensive rules
+✅ 9.5+/10 quality score (elite-tier)
+✅ 100% agentic reasoning embedded
+✅ 100% vibe coding best practices integrated
+✅ 100% advanced prompting patterns included
+✅ 100% {TECHNOLOGY}-specific throughout
+✅ 100% security coverage (mandatory, never optional)
+✅ 100% scope control enforced
+✅ 100% efficiency optimized
+✅ Production-ready and battle-tested
+
+If ANY criterion is not met, revise until achieved.
+```
+
+---
+
+## HOW TO USE THIS PROMPT
+
+### For React (Frontend):
+```
+Replace {TECHNOLOGY} with "React"
+Focus on: JSX, Hooks, State Management, Performance, Testing
+Security: XSS prevention, Props security, Context isolation
+Testing: Jest, React Testing Library patterns
+```
+
+### For Node.js (Backend):
+```
+Replace {TECHNOLOGY} with "Node.js"
+Focus on: Express patterns, Middleware, Async/Await, Databases
+Security: Auth, CORS, Input validation, Secret management
+Testing: Jest, Supertest patterns
+```
+
+### For Python (General):
+```
+Replace {TECHNOLOGY} with "Python"
+Focus on: FastAPI/Django, Async patterns, Type hints, Virtual Env
+Security: SQL injection prevention, Secret management, Input validation
+Testing: Pytest patterns
+```
+
+### For Go (Cloud/DevOps):
+```
+Replace {TECHNOLOGY} with "Go"
+Focus on: Goroutines, Interfaces, Error handling, Channels
+Security: Buffer overflow prevention, Secure defaults
+Testing: Testing package patterns
+```
+
+### For Rust (Systems):
+```
+Replace {TECHNOLOGY} with "Rust"
+Focus on: Ownership, Traits, Error handling, Performance
+Security: Memory safety, Type system security
+Testing: Cargo test patterns
+```
+
+---
+
+## EXPECTED RESULTS
+
+When using this prompt with a capable AI:
+
+✅ 60-70 comprehensive rules specifically tailored to {TECHNOLOGY}
+✅ All agentic AI patterns embedded (ReAct, CoT, Meta-Prompting, etc.)
+✅ Vibe coding best practices fully integrated
+✅ Advanced prompt engineering with practical examples
+✅ {TECHNOLOGY}-specific security checklist
+✅ Code quality validation embedded
+✅ Efficiency optimization for $20/month budget
+✅ Complete with templates, examples, checklists
+✅ Production-ready .cursorrules file
+✅ Quality score 95+/100 (elite-tier)
+✅ Ready to download and use immediately
+
+---
+
+## TIMELINE FOR IMPLEMENTATION
+
+- **Research**: 2-3 hours (documentation, security, patterns)
+- **Prompt Execution**: 30 min (run this prompt on AI)
+- **Review & Refinement**: 1-2 hours (verify quality, add gaps)
+- **Documentation**: 1 hour (usage guide, examples)
+
+**Total: 4-7 hours per technology**
+
+---
+
+## TECHNOLOGIES TO PRIORITIZE
+
+**Next Batch (Recommended):**
+1. React (Frontend) - 4-7 hours
+2. Node.js (Backend) - 4-7 hours
+3. Python (Data/ML) - 4-7 hours
+
+**Then:**
+4. Go (Cloud)
+5. Rust (Systems)
+6. Java/Kotlin (Enterprise)
+
+**Total for 6 technologies: 24-42 hours of execution time**
+
+---
+
+## NOTES
+
+- This prompt is production-tested (created v2.4 ELITE for AWS/Terraform)
+- All requirements based on latest research in agentic AI, vibe coding, prompt engineering
+- Security is mandatory, never optional
+- Quality target: 95+/100 (elite-tier)
+- All deliverables should be immediately production-ready
+- Template is reusable for ANY technology
+
+---
+
+**Last Updated:** November 21, 2025  
+**Version:** 1.0  
+**Status:** Ready for Use  
+**Success Rate:** High (proven with AWS/Terraform v2.4)
